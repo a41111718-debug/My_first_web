@@ -1,0 +1,54 @@
+.g{
+  width: 200;
+}
+#comment1{
+  color: white;
+}
+body{
+  background:linear-gradient(#1c1b1f,#2b2a2f);
+}
+#nnn:active{
+  background: yellow;
+}
+h1{
+  color: white;
+  background: red;
+  padding: 10px;
+  margin: 10px;
+}
+h2{
+  background: red;
+  border:5px solid #0e20874d ;
+  border-left: 10px solid white;
+}
+#me{
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 20 auto;
+  border-radius: 50%;
+  object-fit:cover ;
+  padding: 6px;
+  background: linear-gradient(green,red,blue);
+}
+  #btn{
+    font-size: 30px;
+    padding: 10px;
+    background: blue;
+    color: white;
+    border-radius: 10%;
+    width: 150;
+    height: 50;
+    display: block;
+    margin: 50px;
+    box-shadow:
+    0 0 15px red , 0 0 50px red
+    ;
+  }
+  #btn:active{
+    background: yellow;
+    transform: scale(0.9);
+  }
+  body{
+    background: #48e98;
+  }
